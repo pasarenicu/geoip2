@@ -6,7 +6,6 @@ import (
 	"math"
 	"net"
 	"strconv"
-	"unsafe"
 )
 
 func getNetworkString(ip net.IP, mask uint) string {
